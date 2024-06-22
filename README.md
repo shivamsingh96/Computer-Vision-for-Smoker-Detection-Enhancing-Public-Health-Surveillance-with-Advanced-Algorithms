@@ -1,0 +1,2 @@
+# Computer-Vision-for-Smoker-Detection-Enhancing-Public-Health-Surveillance-with-Advanced-Algorithms
+This thesis endeavours to make significant contributions to the field of smoker detection and public health surveillance. The outcomes of this research have the potential to inform policy decisions, guide smoking cessation interventions, and contribute to the creation of healthier environments worldwide. 

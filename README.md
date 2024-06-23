@@ -24,10 +24,35 @@ Multiple CNN architectures (Transfer Learning) has been applied on the dataset a
 
 ## Comparative Analysis & Key Finding
 
+The architecture explored include VGG16, ResNet-50, Efficient NetV2, and Vision Transformer (ViT). We provide a comprehensive analysis of the performance metrics, compare the results, and discuss the implications of these findings in the context of smoker detection. 
+
+### 1. Result of VGG16
+![cm1](https://github.com/shivamsingh96/Computer-Vision-for-Smoker-Detection-Enhancing-Public-Health-Surveillance-with-Advanced-Algorithms/assets/123630632/ee7ab94a-3356-4bdb-9431-a005d865266f)
+
+The confusion matrix indicates that the model performed well, with most misclassifications occurring between classes that had subtle differences in visual features. 
+
+### 2. Result of Resnet-50
+![cm2](https://github.com/shivamsingh96/Computer-Vision-for-Smoker-Detection-Enhancing-Public-Health-Surveillance-with-Advanced-Algorithms/assets/123630632/e5b763fd-a2ce-441c-bcba-f96670900f26)
+
+### 3. Result of Efficient NetV2
+![cm_eff](https://github.com/shivamsingh96/Computer-Vision-for-Smoker-Detection-Enhancing-Public-Health-Surveillance-with-Advanced-Algorithms/assets/123630632/b02d5cae-0c15-4896-9b8a-302bb52f3590)
+
+EfficientNetV2 outperformed ResNet-50 in all metrics, particularly in terms of recall and F1-score, suggesting it has a better balance between precision and recall. The confusion matrix demonstrates fewer misclassifications compared to ResNet-50, confirms its superior performance. 
+
+### Result of Vision Transformer (ViT)
+![cm5](https://github.com/shivamsingh96/Computer-Vision-for-Smoker-Detection-Enhancing-Public-Health-Surveillance-with-Advanced-Algorithms/assets/123630632/80c07f08-2f87-44ee-8b80-7b5dbc7ea5b6)
+
+ViT performed slightly better than ResNet-50 but did not surpass EfficientNetV2. The confusion matrix indicates that ViT has a high true negative rate, though slightly more false negative compared to EfficientNetV2 and that’s why the recall score of Vision Transformer model is quite low. 
+
+
+
+## Comparative Analysis Table:
+
 <img width="654" alt="tab1" src="https://github.com/shivamsingh96/Computer-Vision-for-Smoker-Detection-Enhancing-Public-Health-Surveillance-with-Advanced-Algorithms/assets/123630632/7aebd144-f9a0-47bb-8647-b50cefd9d36c">
 
 
 The above result indicates that Efficient NetV2 is the most effective architecture for the task of smoker detection. Its superior performance can be attributed to its advanced design, which balance model depth, width, and resolution more effectively than ResNet-50 and ViT.
+
 
 
 
@@ -41,6 +66,4 @@ The above result indicates that Efficient NetV2 is the most effective architectu
 
 
 In summary, this project has demonstrated the effectiveness of advance CNN architectures for smoker detection, with Efficient NetV2 standing out as the most capable model. By addressing the identified areas for further research and development, the field can continue to evolve, leading to more accurate, efficient, and ethical applications of deep learning in public health and beyond.  
-
-
 

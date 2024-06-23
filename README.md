@@ -24,19 +24,20 @@ Multiple CNN architectures (Transfer Learning) has been applied on the dataset a
 
 ## Comparative Analysis & Key Finding
 
+<img width="654" alt="tab1" src="https://github.com/shivamsingh96/Computer-Vision-for-Smoker-Detection-Enhancing-Public-Health-Surveillance-with-Advanced-Algorithms/assets/123630632/7aebd144-f9a0-47bb-8647-b50cefd9d36c">
 
-
-<img width="671" alt="tab1" src="https://github.com/shivamsingh96/Computer-Vision-for-Smoker-Detection-Enhancing-Public-Health-Surveillance-with-Advanced-Algorithms/assets/123630632/8cd275a5-af49-44d9-a9a7-64ad9a41714c">
 
 The above result indicates that Efficient NetV2 is the most effective architecture for the task of smoker detection. Its superior performance can be attributed to its advanced design, which balance model depth, width, and resolution more effectively than ResNet-50 and ViT.
 
 
+
 ### Key Findings:
 
-•	Efficient NetV2 achieved the highest accuracy, indicating its robustness in classifying both smokers and non-smokers accurately.
-•	The balance between precision and recall in Efficient NetV2 suggests it minimizes the both false positives and false negatives more effectively.
-•	A higher F1-score in Efficient NetV2 confirms it overall better performance in handling classification task. 
-•	The Vision Transformer showed promising results, demonstrating the potential of transformer based models in image classification tasks traditionally dominated by CNN. However, it slightly lagged behind Efficient NetV2 in most metrics. 
+1. Efficient NetV2 achieved the highest accuracy, indicating its robustness in classifying both smokers and non-smokers accurately.
+2. The balance between precision and recall in Efficient NetV2 suggests it minimizes the both false positives and false negatives more effectively.
+3. A higher F1-score in Efficient NetV2 confirms it overall better performance in handling classification task.
+4. The Vision Transformer showed promising results, demonstrating the potential of transformer based models in image classification tasks traditionally dominated by CNN. However, it slightly lagged behind Efficient NetV2 in most metrics. 
+
 
 
 In summary, this project has demonstrated the effectiveness of advance CNN architectures for smoker detection, with Efficient NetV2 standing out as the most capable model. By addressing the identified areas for further research and development, the field can continue to evolve, leading to more accurate, efficient, and ethical applications of deep learning in public health and beyond.  
